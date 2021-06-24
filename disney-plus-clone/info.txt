@@ -1,0 +1,17 @@
+Redux is made up of 3 components: Actions, Reducers, and State
+
+Actions: The things which we want to do. Eg., if we want to make a movie, or set a movie or want to log the user in and out the app or website, then this is known as Actions.
+Reducers: These are something that takes the action and changes the state.
+
+
+Actions call the Reducers and Reducers change the State
+
+For more clarification, we can visit https://redux.js.org/tutorials/essentials/part-1-overview-concepts
+
+We have stored the reducer in the movieSlice.js and imported it in the app/store.js so that it can get to know that where is the reducer located
+And to use this, we will do everything in the Home.js file
+
+Home component and the Movie component share the same store which contains movies.
+In the Home component, we set the new movies using the reducer and due to that, we can get the movie in side the Movie component.
+
+In the Home component, we grab the data from the database, dispatched the action, using redux, to save the movies inside the react-store, and once we put that there, we go to the Movies component and grab it from the store.
