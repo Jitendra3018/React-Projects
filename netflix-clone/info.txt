@@ -1,0 +1,22 @@
+Using following technologies:
+
+1. React
+2. Redux
+3. Firebase
+4. Styled Components
+5. TMDB API KEY
+6. React-Hooks
+
+useState() is the easiest way to define a variable in react and due to this only, the react only what to render.
+
+useEffect(()=>{},[]), here the square brackets tells us the dependency, i.e., only run the code once when the page loads.
+And if there is something in the square brackets, then this function will always run when that dependency is loaded.
+
+An async function is a function declared with the async keyword, and the await keyword is permitted within them. The async and await keywords enable asynchronous, promise-based behavior to be written in a cleaner style, avoiding the need to explicitly configure promise chains.
+
+axios is a very useful library when we are making any requests from the API to a server.
+In order to use the API, we need to use the secret key.
+
+The API_KEY in Requests.js will be stored in the {process.env.API_KEY}
+
+Live Website link: https://netflix-clone-7ca5c.web.app/
