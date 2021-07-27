@@ -11,5 +11,4 @@ const requests = {
     fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
 };
 
-// https://api.themoviedb.org/3/trending/all/week?api_key=d7c3c1b7af42d6043e0729870317e71a&language=en_US
 export default requests;
