@@ -1,7 +1,7 @@
-import requests from "../requests/Requests";
-import Banner from "./Banner";
-import Nav from "./Nav";
-import Row from "./Row";
+import requests from "../../requests/Requests";
+import Banner from "../Banner";
+import Nav from "../Nav";
+import Row from "../Row";
 
 function HomeScreen() {
     return (

@@ -19,4 +19,12 @@ In order to use the API, we need to use the secret key.
 
 The API_KEY in Requests.js will be stored in the {process.env.API_KEY}
 
+Router will just look into the page we want to Route to and determine what ever is inside this Router.
+
+We can have only 1 default export but can have more than 1 explicit defaults.
+
+onAuthStateChanged is basically a listener(because it listens to each authenticated state change)
+
+Redux is a global store of our application
+
 Live Website link: https://netflix-clone-7ca5c.web.app/
