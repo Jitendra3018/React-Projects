@@ -1,0 +1,10 @@
+Technologies used for this build process: 
+
+1. React
+2. Styled Components
+3. Firebase for Deploy
+4. Redux
+5. Material UI
+6. React Reveal
+
+Live Website Link: https://tesla-clone-1af78.web.app/
