@@ -30,4 +30,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `Live Website Link`
 
-https://slack-clone-45537.firebaseapp.com/
+https://slack-clone-45537.web.app/
